@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Whatsweb
+GenericName=Unofficial WhatsApp client
+Comment=An unofficial WhatsApp mobile application for linux
+Exec=whatsweb --enable-features=UseOzonePlatform --ozone-platform=wayland
+MimeType=x-scheme-handler/whatsapp
+Icon=whatsweb
+Categories=GTK;GNOME;Network;
+Keywords=chat;im;messaging;messenger;sms;whatsapp;whatsapp-mobile;;whatsweb
