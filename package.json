@@ -5,13 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . mobile-whatsweb --arch=arm64 --electron-version=17.1.2 --overwrite --download.cacheRoot=./packager_cache/"
+    "build": "electron-builder --linux tar.xz"
   },
   "repository": "https://github.com/alefnode/mobile-whatsweb",
   "author": "Adrian Campos Garrido",
   "license": "LGPL-3.0",
   "devDependencies": {
     "electron": "^17.2.0",
-    "electron-packager": "^15.4.0"
+    "electron-builder": "^22.14.13"
   }
 }
