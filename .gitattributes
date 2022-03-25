@@ -1,1 +1,5 @@
 node_modules/electron/dist/electron filter=lfs diff=lfs merge=lfs -text
+packager_cache/electron-v17.2.0-linux-arm64.zip filter=lfs diff=lfs merge=lfs -text
+packager_cache/electron-v17.2.0-linux-armv7l.zip filter=lfs diff=lfs merge=lfs -text
+packager_cache/electron-v17.2.0-linux-ia32.zip filter=lfs diff=lfs merge=lfs -text
+packager_cache/electron-v17.2.0-linux-x64.zip filter=lfs diff=lfs merge=lfs -text
