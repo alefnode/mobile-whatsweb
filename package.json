@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . mobile-whatsweb --arch=all --electron-version=17.1.2 --overwrite -electronZipDir=./packager_cache"
+    "build": "electron-packager . mobile-whatsweb --arch=arm64 --electron-version=17.1.2 --overwrite --download.cacheRoot=./packager_cache/"
   },
   "repository": "https://github.com/alefnode/mobile-whatsweb",
   "author": "Adrian Campos Garrido",
