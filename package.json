@@ -1,6 +1,6 @@
 {
   "name": "mobile-whatsweb",
-  "version": "0.0.1",
+  "version": "0.2.3",
   "description": "Unofficial mobile device client for WhatsApp Web",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,7 @@
     "build": "electron-builder ."
   },
   "repository": "https://github.com/alefnode/mobile-whatsweb",
-  "author": "Adrian Campos Garrido",
-  "email": "adriancampos@teachelp.com",
+  "author": "Adrian Campos Garrido <adriancampos@teachelp.com>",
   "license": "LGPL-3.0",
   "devDependencies": {
     "electron": "^17.2.0",
