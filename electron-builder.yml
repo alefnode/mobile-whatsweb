@@ -9,9 +9,6 @@ linux:
     - target: rpm
       arch:
         - arm64
-    - target: pacman
-      arch:
-        - arm64
     - target: apk
       arch:
         - arm64
