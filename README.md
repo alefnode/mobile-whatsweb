@@ -8,7 +8,14 @@ We also create a JS that make webpage responsive.
 npm install
 npm run-script build
 
+#### Run
+
+mobile-whatsweb --enable-features=UseOzonePlatform --ozone-platform=wayland
+
 #### Credits
-Based on [whatsapp-electron](https://github.com/kenxjy/whatsapp-electron)
+Based on [Whatsweb](https://github.com/alefnode/ubports-apps/tree/master/whatsweb)
+
+Thanks to [whatsapp-electron](https://github.com/kenxjy/whatsapp-electron)
+
 Icon by dtafalonso from [IconArchive](http://www.iconarchive.com/show/android-l-icons-by-dtafalonso/WhatsApp-icon.html)
 
