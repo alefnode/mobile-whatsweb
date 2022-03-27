@@ -5,12 +5,15 @@ linux:
         - x64
         - arm64
     - target: deb
+      arch:
         - x64
         - arm64
     - target: rpm
+      arch:
         - x64
         - arm64
     - target: snap
+      arch:
         - x64
         - arm64
   icon: "./assets/512x512.png"
