@@ -1,28 +1,19 @@
 linux:
   target:
-    - target: AppImage
+    - target: tar.xz
       arch:
-        - x64
         - arm64
     - target: deb
       arch:
-        - x64
         - arm64
     - target: rpm
       arch:
-        - x64
-        - arm64
-    - target: snap
-      arch:
-        - x64
         - arm64
     - target: pacman
       arch:
-        - x64
         - arm64
     - target: apk
       arch:
-        - x64
         - arm64
   icon: "./assets/512x512.png"
   category: "Network"
