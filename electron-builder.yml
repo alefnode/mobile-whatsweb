@@ -16,5 +16,13 @@ linux:
       arch:
         - x64
         - arm64
+    - target: pacman
+      arch:
+        - x64
+        - arm64
+    - target: apk
+      arch:
+        - x64
+        - arm64
   icon: "./assets/512x512.png"
   category: "Network"
