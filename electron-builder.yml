@@ -1,5 +1,17 @@
 linux:
   target:
     - target: AppImage
+      arch:
+        - x64
+        - arm64
+    - target: deb
+        - x64
+        - arm64
+    - target: rpm
+        - x64
+        - arm64
+    - target: snap
+        - x64
+        - arm64
   icon: "./assets/512x512.png"
   category: "Network"
