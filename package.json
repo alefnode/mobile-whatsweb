@@ -1,6 +1,6 @@
 {
   "name": "mobile-whatsweb",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Unofficial mobile device client for WhatsApp Web",
   "main": "index.js",
   "scripts": {
