@@ -60,9 +60,11 @@ window.addEventListener("click", function() {
   //  navigation();
   //}
 
-  if (document.querySelector('span[data-icon="attach-image"]')){
-    attachresponsive();
-  } else if (document.querySelector('[data-animate-dropdown-item]')){
+  // Disabled attachresponsive to fix input layout breakage
+  // if (document.querySelector('span[data-icon="attach-image"]')){
+  //   attachresponsive();
+  // }
+  if (document.querySelector('[data-animate-dropdown-item]')){
     modaldialogresponsive();
   } else if (document.querySelector('[data-testid="contact-list-key"]')){
     startnewchat();
